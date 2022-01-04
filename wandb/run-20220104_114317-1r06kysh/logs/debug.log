@@ -1,0 +1,30 @@
+2022-01-04 11:43:17,344 INFO    MainThread:22688 [wandb_setup.py:_flush():71] setting env: {'api_key': '***REDACTED***'}
+2022-01-04 11:43:17,344 INFO    MainThread:22688 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-04 11:43:17,344 INFO    MainThread:22688 [wandb_init.py:_log_setup():371] Logging user logs to C:\Source\GitHub\negotiation-experiments\wandb\run-20220104_114317-1r06kysh\logs\debug.log
+2022-01-04 11:43:17,345 INFO    MainThread:22688 [wandb_init.py:_log_setup():372] Logging internal logs to C:\Source\GitHub\negotiation-experiments\wandb\run-20220104_114317-1r06kysh\logs\debug-internal.log
+2022-01-04 11:43:17,345 INFO    MainThread:22688 [wandb_init.py:_jupyter_setup():321] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000023E3479FBB0>
+2022-01-04 11:43:17,345 INFO    MainThread:22688 [wandb_init.py:init():404] calling init triggers
+2022-01-04 11:43:17,345 INFO    MainThread:22688 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {}
+2022-01-04 11:43:17,345 INFO    MainThread:22688 [wandb_init.py:init():460] starting backend
+2022-01-04 11:43:17,345 INFO    MainThread:22688 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-01-04 11:43:17,358 INFO    MainThread:22688 [backend.py:ensure_launched():216] starting backend process...
+2022-01-04 11:43:17,575 INFO    MainThread:22688 [backend.py:ensure_launched():221] started backend process with pid: 63596
+2022-01-04 11:43:17,576 INFO    MainThread:22688 [wandb_init.py:init():469] backend started and connected
+2022-01-04 11:43:17,606 INFO    MainThread:22688 [wandb_run.py:_label_probe_notebook():911] probe notebook
+2022-01-04 11:43:17,608 INFO    MainThread:22688 [wandb_run.py:_label_probe_notebook():921] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-01-04 11:43:17,608 INFO    MainThread:22688 [wandb_init.py:init():533] updated telemetry
+2022-01-04 11:43:17,949 INFO    MainThread:22688 [wandb_init.py:init():563] communicating current version
+2022-01-04 11:43:19,627 INFO    MainThread:22688 [wandb_init.py:init():568] got version response 
+2022-01-04 11:43:19,627 INFO    MainThread:22688 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-04 11:43:20,174 INFO    MainThread:22688 [wandb_init.py:init():606] starting run threads in backend
+2022-01-04 11:43:25,192 INFO    MainThread:22688 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-04 11:43:25,192 INFO    MainThread:22688 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-01-04 11:43:25,193 INFO    MainThread:22688 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-01-04 11:43:25,195 INFO    MainThread:22688 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-04 11:43:25,195 INFO    MainThread:22688 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-04 11:43:25,217 INFO    MainThread:22688 [wandb_run.py:_config_callback():956] config_cb None None {'output_dir': 't5_wikihow', 'model_name_or_path': 't5-small', 'tokenizer_name_or_path': 't5-small', 'max_input_length': 512, 'max_output_length': 150, 'freeze_encoder': False, 'freeze_embeds': False, 'learning_rate': 0.0003, 'weight_decay': 0.0, 'adam_epsilon': 1e-08, 'warmup_steps': 0, 'train_batch_size': 4, 'eval_batch_size': 4, 'num_train_epochs': 2, 'gradient_accumulation_steps': 8, 'n_gpu': 1, 'resume_from_checkpoint': 'None', 'val_check_interval': 0.05, 'n_val': 1000, 'n_train': -1, 'n_test': -1, 'early_stop_callback': False, 'fp_16': False, 'opt_level': 'O1', 'max_grad_norm': 1.0, 'seed': 42}
+2022-01-04 11:43:28,598 INFO    MainThread:22688 [wandb_init.py:_pause_backend():284] pausing backend
+2022-01-04 11:43:28,598 INFO    MainThread:22688 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-01-04 11:45:09,487 INFO    MainThread:22688 [wandb_init.py:_resume_backend():293] resuming backend
+2022-01-04 11:45:09,497 INFO    MainThread:22688 [wandb_run.py:_config_callback():956] config_cb None None {'output_dir': 't5_wikihow', 'model_name_or_path': 't5-small', 'tokenizer_name_or_path': 't5-small', 'max_input_length': 512, 'max_output_length': 150, 'freeze_encoder': False, 'freeze_embeds': False, 'learning_rate': 0.0003, 'weight_decay': 0.0, 'adam_epsilon': 1e-08, 'warmup_steps': 0, 'train_batch_size': 4, 'eval_batch_size': 4, 'num_train_epochs': 2, 'gradient_accumulation_steps': 8, 'n_gpu': 1, 'resume_from_checkpoint': 'None', 'val_check_interval': 0.05, 'n_val': 1000, 'n_train': -1, 'n_test': -1, 'early_stop_callback': False, 'fp_16': False, 'opt_level': 'O1', 'max_grad_norm': 1.0, 'seed': 42}

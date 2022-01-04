@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-01-04T00:43:20.295386",
+    "startedAt": "2022-01-04T00:43:17.341252",
+    "docker": null,
+    "gpu": "GeForce GTX 1060 3GB",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\ravy\\AppData\\Roaming\\jupyter\\runtime\\kernel-d418b74d-ba10-4407-bc02-efb8e7dfd2a1.json"
+    ],
+    "state": "running",
+    "program": "Source/GitHub/negotiation-experiments/Tune_T5_WikiHow-Github.ipynb",
+    "root": "C:/Source/GitHub/negotiation-experiments",
+    "git": {
+        "remote": "https://github.com/ravy101/negotiation-experiments.git",
+        "commit": "2873ab9299658fb21fa3ace44d16436b73f86c47"
+    },
+    "email": "ravy101@gmail.com",
+    "host": "DESKTOP-B1D23EP",
+    "username": "ravy",
+    "executable": "C:\\Users\\ravy\\Anaconda3\\envs\\py30\\python.exe"
+}
