@@ -1,0 +1,1405 @@
+,sentences,Actual,Predicted
+0,deal,_deal,_deal
+1,i need to have the hat,_need( _hats 1 ),_need( _hats 1 )
+2,no it's not,_no,_nodeal
+3,so the hats and a book for me?,_need( _books 1 _hats all ),_counteroffer _need( _books 1 _hats all )
+4,"im a reader, so id like the books.... you may have the hats and ball",_need( _books all ) _offer( _hats all _balls 1),_need( _books all ) _offer( _hats all _balls all)
+5,i'll take the book and two hats then?,_need( _books 1 _hats 2 ),_need( _books 1 _hats 2 )
+6,i need 2 balls and a hat,_need( _hats 1 _balls 2),_need( _hats 1 _balls 2)
+7,i need the book or it's no deal.,_need( _books 1 ),_need( _books 1 )
+8,alright no deal,_nodeal,_no
+9,you can have one ball 1 hat,_offer( _hats 1 _balls 1),_offer( _balls 1)
+10,no deal i am keeping the book,_no _need( _books 1 ),_nodeal
+11,okay,_deal,_deal
+12,ok i want the hat and you can have the rest,_yes _need( _hats 1 ) _offer( _books all _balls all),_need( _hats 1 ) _deal
+13,"i'll take the hat, you can have the rest.",_need( _hats 1 ) _offer( _books all _balls all),_need( _hats 1 )
+14,"i would like the balls, hat and 2 books",_need( _books 2 _hats 1 _balls all),_need( _books 2 _hats 1 )
+15,"you did not suggest hat and ball. you suggested i take the ball, that makes you unreasonable so dont be a hypocrite. you can have only the hats at this point",_need( _books all _balls all) _offer( _hats all ),_need( _hats 1 ) _offer( _balls 1)
+16,i can take the hats and one book and you can have the res,_need( _books 1 _hats all ) _offer( _books rest _balls all),_need( _books 1 _balls all) _offer( _books all _hats all )
+17,deal.,_deal,_deal
+18,yes. deal?,_yes,_deal
+19,"i'll take the book and hat, you can have the balls",_need( _books 1 _hats 1 ) _offer( _balls all),_need( _books 1 _hats 1 ) _offer( _balls all)
+20,i would like 1 of each,_need( _books 1 _hats 1 _balls 1),_need( _books 1 _balls 1)
+21,"okay, it's a deal.",_deal,_deal
+22,i need the hats you can have everything else,_need( _hats all ) _offer( _books all _balls all),_need( _hats all ) _offer( rest)
+23,no deal,_nodeal,_nodeal
+24,i'll take books and hat if you want the balls,_need( _books all _hats all ) _offer( _balls all),_need( _books all _hats 1 )
+25,hello,_greeting,_greeting
+26,deal!,_deal,_deal
+27,ok deal,_deal,_deal
+28,i'll take two balls and the book.,_need( _books 1 _balls 2),_need( _books 1 _balls 2)
+29,"okay, i'll take the hat, one ball and one book?",_need( _books 1 _hats 1 _balls 1),_need( _books 1 _balls 1)
+30,deal,_deal,_deal
+31,"sorry, i won<unk> t make a deal without a hat",_counteroffer _need( _hats 1 ),_need( _hats 1 )
+32,i need the hats and the ball,_need( _hats all _balls 1),_need( _hats all _balls 1)
+33,no deal,_nodeal,_nodeal
+34,no deal,_nodeal,_nodeal
+35,okay,_deal,_deal
+36,okay thank you.,_deal,_deal
+37,okay.,_deal,_deal
+38,"fine, i get both hats",_yes _need( _hats 2 ),_need( _hats 2 )
+39,take all the balls i keep everything else,_need( _books all _hats all ) _offer( _balls all),_need( _balls all)
+40,"can i keep a hat at least, its cold",_need( _hats 1 ),_need( _hats 1 )
+41,deal,_deal,_deal
+42,could you just take the hat and give me the rest?,_need( rest) _offer( _hats 1 ),_offer( _hats 1 )
+43,"hi, i would like 2 balls and 1 hat.",_greeting _need( _hats 1? _balls 2),_need( _hats 1 _balls 2)
+44,can i have 1 ball and give you a book for it?,_need( _balls 1) _offer( _books 1 ),_offer( _balls 1)
+45,deal,_deal,_deal
+46,sounds like a deal!,_deal,_deal
+47,"so 3 balls for you, the rest to me?",_need( rest) _offer( _balls 3),_need( _balls 1) _offer( rest)
+48,hat and two balls for me,_need( _hats 1 _balls 2),_need( _hats 1 _balls 2)
+49,"i'd like to have 2 balls, please. you can have the rest",_need( _balls 2) _offer( rest),_need( _balls 2) _offer( rest)
+50,"can i have the the book, one hat and one ball",_need( _books 1 _hats 1 _balls 1),_need( _books 1 _balls 1)
+51,i would like hat and 2 balls,_need( _hats 1 _balls 2),_need( _hats 1 _balls 2)
+52,"ok, deal",_deal,_deal
+53,you can take all the books but i would like 2 balls at least and one hat,_need( _hats 1 _balls 2) _offer( _books all ),_need( _hats 1 _balls 2) _offer( _books all )
+54,can i have the book and the hat?,_need( _books 1 _hats 1 ),_need( _books 1 _hats 1 )
+55,deal.,_deal,_deal
+56,i need the books and the hat,_need( _books all _hats 1 ),_need( _books all _hats 1 )
+57,deal,_deal,_deal
+58,deal.,_deal,_deal
+59,"back to where we started. you can have a book and a hat, i'll take the rest.",_need( rest) _offer( _books 1 _hats 1 ),_need( rest) _offer( _books 1 _hats 1 )
+60,book,_misc( _books 1 ),_misc( _books 1 )
+61,yes.,_deal,_deal
+62,ball is 9 for me. no deal.,_nodeal _need( _balls 1),_nodeal
+63,no deal,_nodeal,_nodeal
+64,nope,_nodeal,_nodeal
+65,yes,_deal,_deal
+66,agreed,_deal,_deal
+67,yup,_deal,_deal
+68,ok,_deal,_deal
+69,awesome!,_deal,_deal
+70,ok deal,_deal,_deal
+71,sounds good.,_deal,_deal
+72,no deal,_nodeal,_nodeal
+73,no deal,_nodeal,_nodeal
+74,2 balls and 2 hats,_misc( _hats 2 _balls 2),_misc( _hats 2 _balls 2)
+75,"ok, deal.",_deal,_deal
+76,thank you.,_deal,_deal
+77,okay deal,_deal,_deal
+78,ok,_deal,_deal
+79,ok deal,_deal,_deal
+80,deal.,_deal,_deal
+81,deal,_deal,_deal
+82,bet i take the hats and the ball,_need( _hats all _balls 1),_need( _hats all _balls 1)
+83,deal,_deal,_deal
+84,deal.,_deal,_deal
+85,deal,_deal,"""deal"
+86,"1 hat, 2 books",_misc( _books 2 _hats 1 ),_misc( _books 2 _hats 1 )
+87,okay,_deal,_deal
+88,deal.,_deal,_deal
+89,deal,_deal,_deal
+90,yes,_deal,_deal
+91,thank you,_deal _thanks,_deal _thanks
+92,thank you.,_deal,_deal
+93,deal,_deal,_deal
+94,no way,_nodeal,_nodeal
+95,deal.,_deal,_deal
+96,best deal is you can have the ball and 1 hat,_offer( _hats 1 _balls 1),_offer( _hats 1 _balls 1)
+97,book is ten for you?,_misc( _books 1 ),_need( _books 10)
+98,book and hats 1 ball,_misc( _books 1 _hats all _balls 1),_misc( _books 1 _hats all )
+99,no deal,_nodeal,_nodeal
+100,deal,_deal,_deal
+101,yes,_deal,_deal
+102,okay deal.,_deal,_deal
+103,any chance you'd take three books and i could have the hat and two balls?,_need( _hats 1 _balls 2) _offer( _books 3 ),_need( _books 3 ) _offer( _hats 1 _balls 2)
+104,agreed. no deal.,_nodeal,_yes
+105,and 1 book along with 1 ball?,_misc( _books 1 _balls 1),_misc( _books 1 _balls 1)
+106,no can do,_nodeal,_nodeal
+107,deal,_deal,_deal
+108,no deal.,_nodeal,_nodeal
+109,no deal,_nodeal,_odeal
+110,"2 books, one ball",_misc( _books 2 _balls 1),_misc( _books 2 _balls 1)
+111,ball and one hat,_misc( _hats 1 _balls 1),_misc( _hats 1 _balls 1)
+112,deal.,_deal,_deal
+113,no,_nodeal,_nodeal
+114,nope,_nodeal,_nodeal
+115,deal,_deal,_deal
+116,deal,_deal,_deal
+117,okay great! thank you!,_deal,(deal
+118,ok,_deal,_deal
+119,no deal,_nodeal,_no
+120,deal,_deal,_deal
+121,"yup, no deal was agreed",_nodeal,_nodeal
+122,deal,_deal,_deal
+123,ok,_deal,_deal
+124,ball or no deal,_need( _balls 1),_nodeal
+125,sure,_deal,_deal
+126,ok,_deal,_deal
+127,deal,_deal,_deal
+128,deal.,_deal,""""
+129,no can do,_nodeal,_nodeal
+130,yes,_deal,_deal
+131,no deal,_nodeal,_nodeal
+132,okay,_deal,_______
+133,okay deal.,_deal,_deal
+134,deal,_deal,_deal
+135,"2 balls to me, rest for you",_need( _balls 2) _offer( rest),_need( _balls 2) _offer( rest)
+136,okay.,_deal,_deal
+137,deal,_deal,_deal
+138,okay deal,_deal,_deal
+139,thanks,_deal _thanks,_deal
+140,ok,_deal,_deal
+141,no deal,_nodeal,_nodeal
+142,no deal,_nodeal,_nodeal
+143,no deal,_nodeal,_nodeal
+144,deal.,_deal,_deal
+145,lol no,_nodeal,_nodeal
+146,2 books and a ball?,_misc( _books 2 _balls 1),_misc( _books 2 _balls 1)
+147,thx,_deal _thanks,_deal _thanks
+148,okay deal,_deal,_deal
+149,ok,_deal,_deal
+150,deal,_deal,_deal
+151,"ok, deal.",_deal,_deal
+152,no deal,_nodeal,_nodeal
+153,deal!,_deal,_deal
+154,ball to me then,_need( _balls 1),_misc( _balls 1)
+155,ok deal,_deal,_deal
+156,book and ball to me,_need( _books 1 _balls 1),_need( _books 1 _balls 1)
+157,no deal,_nodeal,_nodeal
+158,ball is needed,_need( _balls 1),_nodeal
+159,deal,_deal,_deal
+160,deal,_deal,_deal
+161,deal,_deal,_deal
+162,okay great! thank you!,_deal,_deal
+163,ok deal,_deal,_deal
+164,alrighty sounds good.,_deal,_deal
+165,yes,_deal,_deal
+166,deal,_deal,_deal
+167,yes,_deal,_deal
+168,okay great! thank you!,_deal,_deal
+169,cool,_deal,_deal
+170,books and hat for me,_need( _books all _hats 1 ),_need( _books all _hats 1 )
+171,appreciate it! deal!,_deal _thanks,_deal
+172,deal,_deal,_deal
+173,ok deal,_deal,_deal
+174,deal,_deal,_deal
+175,1 book 2 hats,_misc( _books 1 _hats 2 ),_need( _books 1 _hats 2 )
+176,2 balls,_misc( _balls 2),_misc( _balls 2)
+177,ok no deal,_nodeal,_no
+178,deal,_deal,_deal
+179,okay great! thank you!,_deal,_deal
+180,all balls and books to me,_need( _books all _balls all),_need( _books all _balls all)
+181,no deal,_nodeal,_nodeal
+182,no deal,_nodeal,_nodeal
+183,deal,_deal,_deal
+184,deal,_deal,_deal
+185,deal,_deal,_deal
+186,great!,_deal,_deal
+187,ok,_deal,-
+188,no deal.,_nodeal,_nodeal
+189,book and ball to me,_need( _books 1 _balls 1),_need( _books 1 _balls 1)
+190,great,_deal,_deal
+191,deal.,_deal,_deal
+192,ball is the highest value item. ; the only way i can get rid of the ball is for everything else on the table.,_need( _balls 1),_need( _balls 1)
+193,no deal,_nodeal,_nodeal
+194,no deal,_nodeal,_nodeal
+195,deal,_deal,_deal
+196,deal,_deal,deal
+197,no deal,_nodeal,_nodeal
+198,deal,_deal,_deal
+199,deal,_deal,_deal
+200,no,_nodeal,_nodeal
+201,deal.,_deal,_deal
+202,deal,_deal,_deal
+203,yes,_deal,_deal
+204,deal.,_deal,_deal
+205,alright. i'll keep the books.,_yes _need( _books all ),_yes _need( _books all )
+206,thanks,_deal _thanks,_deal _thanks
+207,deal,_deal,_deal
+208,deal.,_deal,_deal
+209,ok,_deal,_deal
+210,deal,_deal,_deal
+211,no deal,_nodeal,_nodeal
+212,okay,_deal,_deal
+213,okay,_deal,_deal
+214,deal,_deal,_deal
+215,all the books and a ball.,_misc( _books all _balls 1),_misc( _balls 1)
+216,i can't do that,_nodeal,_nodeal
+217,deal.,_deal,_deal
+218,okay deal.,_deal,_deal
+219,no deal,_nodeal,_nodeal
+220,yes,_deal,_deal
+221,deal,_deal,_deal
+222,deal.,_deal,_deal
+223,deal,_deal,_deal
+224,deal.,_deal,_deal
+225,deal,_deal,_deal
+226,no deal,_nodeal,_nodeal
+227,deal,_deal,_deal
+228,no way,_nodeal,_no
+229,ok,_deal,_deal
+230,ok deal.,_deal,_deal
+231,okay deal,_deal,_deal
+232,ok,_deal,_deal
+233,ok,_deal,_deal
+234,ok,_deal,_deal
+235,1 hat and 1 ball.,_misc( _hats 1 _balls 1),_misc( _hats 1 _balls 1)
+236,"1 hat, 1 ball, no book, extra butter",_misc( _books 0 _hats 1 _balls 1),_misc( _books 1 _hats 1 _balls 1)
+237,"1 hat, 1 ball, 2 books and a stick of butter",_misc( _books 2 _hats 1 _balls 1),_misc( _books 2 _balls 1)
+238,yes,_deal,_deal
+239,no deal,_nodeal,_nodeal
+240,no deal,_nodeal,_nodeal
+241,1 book and all hats for you,_offer( _books 1 _hats all ),_offer( _books 1 _hats all )
+242,ok deal,_deal,_deal
+243,deal.,_deal,_deal
+244,deal.,_deal,"""deal"
+245,fine,_deal,_deal
+246,okay deal,_deal,_deal
+247,deal.,_deal,_deal
+248,no deal,_nodeal,_nodeal
+249,deal,_deal,_deal
+250,"all balls to me, you have rest",_need( _balls all) _offer( _books rest _hats rest ),_need( rest) _offer( _balls all)
+251,ok deal,_deal,_deal
+252,no deal,_nodeal,_nodeal
+253,sounds good,_deal,_deal
+254,thanks,_deal _thanks,_deal _thanks
+255,deal,_deal,_deal
+256,ok,_deal,_deal
+257,sounds good,_deal,_deal
+258,agreed,_deal,_deal
+259,yes,_deal,_deal
+260,deal.,_deal,_deal
+261,no deal,_nodeal,_nodeal
+262,alright then.. i suppose i'll take the hats.,_yes _need( _hats all ),_deal _need( _hats all )
+263,2 books and a hat for me?,_need( _books 2 _hats 1 ),_need( _books 2 _hats 1 )
+264,deal.,_deal,_deal
+265,no deal,_nodeal,nodeal
+266,balls are worthless. i'll just take the 2 hats and you can have the rest.,_need( _hats 2 _balls 0) _offer( rest),_need( _hats 2 _balls 0) _offer( rest)
+267,ok,_deal,_deal
+268,thank you!,_deal,_deal
+269,ok,_deal,_deal
+270,okay deal,_deal,_deal
+271,deal.,_deal,_deal
+272,agree to 0 s,_nodeal,_nodeal
+273,ok deal,_deal,_deal
+274,deal,_deal,_deal
+275,ok,_deal,_deal
+276,yes,_deal,_deal
+277,deal,_deal,_deal
+278,okay great! thank you!,_deal,_deal
+279,deal,_deal,_deal
+280,deal.,_deal,_deal
+281,no deal,_nodeal,_nodeal
+282,no deal.,_nodeal,_nodeal
+283,deal.,_deal,_deal
+284,no deal then,_nodeal,_nodeal
+285,"ball and books to me, rest to you",_need( _books all _balls 1) _offer( rest),_need( _books all _balls 1) _offer( rest)
+286,deal.,_deal,_deal
+287,no deal,_nodeal,_Nodeal
+288,"book has no value to me at all, i assume it'll give you minimal points. i'd be ok with two balls and the hat?",_need( _books 0 _hats 1 _balls 2),_need( _books 0 _balls 1)
+289,no deal then,_nodeal,_pas
+290,books and both balls to me,_need( _books all _balls all),_need( _books all _balls 2)
+291,fine,_deal,_deal
+292,okay deal.,_deal,_deal
+293,deal,_deal,_deal
+294,thank you,_deal _thanks,_deal _thanks
+295,okay,_deal,_deal
+296,okay.,_deal,_deal
+297,ok deal,_deal,_deal
+298,sure,_deal,_deal
+299,no deal,_nodeal,_nodeal
+300,deal,_deal,_deal
+301,no deal.,_nodeal,_nodeal
+302,book and balls for me,_need( _books 1 _balls all),_need( _books 1 _balls all)
+303,balls and all hats,_misc( _hats all _balls all),_misc( _hats all _balls all)
+304,balls and 3 hats for you,_offer( _hats 3 _balls all),_need( _hats 3 _balls all)
+305,ok,_deal,_deal
+306,balls have 0 value on my end,_need( _balls 0),_need( _balls 0)
+307,"books are 1 each, hats are 3 each, ball is 2. what about you?",_need( _hats all ),_need( _books 1 _hats 3 _balls 2)
+308,ok,_deal,_deal
+309,great,_deal,"""deal"
+310,"alas, no deal",_nodeal,_nodeal
+311,: /,_no,_deal
+312,no deal,_nodeal,_nodeal
+313,okay great! thank you!,_deal,_deal
+314,all balls for you only,_offer( _balls all),_misc( _balls all)
+315,agree. no deal,_nodeal,0
+316,no deal,_nodeal,_nodeal
+317,deal.,_deal,_deal
+318,okay,_deal,"""deal"
+319,ok deal,_deal,_deal
+320,1 ball and 1 hat for me!,_need( _hats 1 _balls 1),_nodeal
+321,okay deal.,_deal,_deal
+322,okay thank you!,_deal,_deal
+323,no deal,_nodeal,_nodeal
+324,no deal,_nodeal,_nodeal
+325,no deal,_nodeal,_nodeal
+326,agreed with the no deal.,_nodeal,_nodeal
+327,are you sure you cant come off the ball?,_need( _balls 1),_need( _balls 1)
+328,nd,_nodeal,_nodeal
+329,no deal,_nodeal,_nodeal
+330,okay thank you!,_deal,_deal
+331,and you don't want anything else? can you give up one of the balls?,_need( _balls 1),_offer( _balls 1)
+332,deal,_deal,_deal
+333,and one hat,_misc( _hats 1 ),_misc( _hats 1 )
+334,ok,_deal,_deal
+335,basketball,_misc( _balls 1),_deal
+336,"all hats to me, everything else to you",_need( _hats all ) _offer( rest),_need( _hats all ) _offer( rest)
+337,deal,_deal,_deal
+338,"ok, thanks",_deal,_deal
+339,yes,_deal,_deal
+340,deal,_deal,_deal
+341,okay great!,_deal,_deal
+342,nope,_nodeal,_nodeal
+343,okay deal.,_deal,_deal
+344,deal,_deal,_deal
+345,deal,_deal,_deal
+346,no deal,_nodeal,_nodeal
+347,no deal.,_nodeal,#nodeal
+348,deal,_deal,_deal
+349,and we split the books?,_need( _books 1 ) _offer( _books 1 ),_need( _books 2 )
+350,"2 books and the hat to you, one book and the ball to me?",_need( _books 1 _balls 1) _offer( _books 2 _hats 1 ),_need( _books 2 _hats 1 )
+351,no deal then,_nodeal,_nodeal
+352,deal,_deal,_deal
+353,"ok, deal",_deal,_deal
+354,ok,_deal,_deal
+355,thank you!,_deal,_deal
+356,okay deal,_deal,_deal
+357,deal,_deal,_deal
+358,ok,_deal,_deal
+359,deal.,_deal,_deal
+360,ok,_deal,_deal
+361,no,_nodeal,_deal
+362,no deal,_nodeal,_nodeal
+363,sure,_deal,0
+364,deal,_deal,_deal
+365,never,_nodeal,_nodeal
+366,great!,_deal,_deal
+367,deal,_deal,_deal
+368,sure,_deal,_deal
+369,agreed,_deal,_deal
+370,yup,_deal,_deal
+371,no deal then,_nodeal,_nichtdeal
+372,hi,_greeting,_greeting
+373,ok,_deal,_deal
+374,yes,_deal,_deal
+375,deal.,_deal,""""
+376,ok deal,_deal,_deal
+377,thank you,_deal _thanks,_thanks
+378,deal,_deal,_deal
+379,no deal,_nodeal,_nodeal
+380,no deal,_nodeal,_nodeal
+381,"ok, thanks",_deal,_deal
+382,ok,_deal,_deal
+383,"and so would i, ill give up the book if i get the hat",_need( _hats 1 ) _offer( _books 1 ),_need( _books 1 )
+384,no deal,_nodeal,_nodeal
+385,nope,_nodeal,"""nodeal"
+386,deal.,_deal,_deal
+387,ok deal,_deal,_deal
+388,no deal,_nodeal,_nodeal
+389,okay,_deal,_deal
+390,deal.,_deal,_deal
+391,deal,_deal,_deal
+392,ball must be mine,_need( _balls 1),_need( _balls 1)
+393,ok deal,_deal,_deal
+394,no,_nodeal,_counter
+395,no deal,_nodeal,_nodeal
+396,no deal,_nodeal,_nodeal
+397,yes,_deal,"""deal"
+398,books are 0 for me. i can 1 hat and 1 ball or just 2 balls.,_need( _books 0 _hats 1 _balls 1),_need( _books 0 _hats 1 _balls 1)
+399,agreed.,_deal,_deal
+400,deal.,_deal,_deal
+401,2 balls and 2 books please,_need( _books 2 _balls 2),_misc( _books 2 _balls 2)
+402,agreed no deal.,_nodeal,_nodeal
+403,no deal,_nodeal,_nodeal
+404,no deal,_nodeal,_nodeal
+405,sounds good,_deal,_deal
+406,no deal,_nodeal,_nodeal
+407,ok,_deal,_deal
+408,deal,_deal,_deal
+409,deal,_deal,_deal
+410,yes,_deal,_deal
+411,deal,_deal,_deal
+412,no deal then,_nodeal,_nodeal
+413,alright i will take all the balls and the books. you can just have the hat.,_need( _books all _balls all) _offer( _hats 1 ),_counteroffer _need( _balls all)
+414,yes,_deal,_deal
+415,okay deal.,_deal,(deal
+416,ok deal,_deal,_deal
+417,ok,_deal,_deal
+418,ok deal,_deal,_deal
+419,deal.,_deal,_deal
+420,yes,_deal,_deal
+421,deal,_deal,_deal
+422,great! thank you!,_deal,_deal
+423,deal,_deal,_deal
+424,ok deal,_deal,_deal
+425,ok,_deal,_deal
+426,ok,_deal,_deal
+427,no deal,_nodeal,_nodeal
+428,ok,_deal,_deal
+429,ok,_deal,_deal
+430,no deal,_nodeal,_nodeal
+431,deal,_deal,_deal
+432,no deal,_nodeal,_nodeal
+433,deal,_deal,_deal
+434,no deal,_nodeal,0
+435,2 balls and that is the most i can do,_offer( _hats 1 _balls 2),_need( _balls 2)
+436,ok deal,_deal,_deal
+437,a ball and two books is what i need. nothing less.,_need( _books 2 _balls 1),_need( _books 2 _balls 1)
+438,ok,_deal,_deal
+439,ok deal,_deal,_deal
+440,deal.,_deal,_deal
+441,balls are 4 points for me. no deal.,_nodeal,_nodeal
+442,and i need 1 ball,_need( _balls 1),_need( _balls 1)
+443,deal,_deal,_deal
+444,great,_deal,_deal
+445,thanks,_deal _thanks,_deal _thanks
+446,thank you.,_deal,_deal
+447,any chance i can get 2 hats and the ball?,_need( _hats 2 _balls 1),_need( _hats 2 _balls 1)
+448,"alright, i'll settle for that deal.",_deal,_deal
+449,i can do that,_deal,_deal
+450,no deal,_nodeal,_nodeal
+451,great,_deal,_deal
+452,no deal,_nodeal,_nodeal
+453,book and one hat to me,_need( _books 1 _hats 1 ),_need( _books 1 _hats 1 )
+454,ok,_deal,_deal
+455,deal,_deal,_deal
+456,yep,_deal,_deal
+457,no,_nodeal,_nodeal
+458,no deal,_nodeal,_nodeal
+459,sounds good,_deal,_deal
+460,yup,_deal,_deal
+461,nope,_nodeal,nicht
+462,ok,_deal,_deal
+463,ok,_deal,_deal
+464,no deal.,_nodeal,_nodeal
+465,ok,_deal,_deal
+466,deal,_deal,_deal
+467,fine,_deal,_deal
+468,deal,_deal,"""deal"
+469,no,_nodeal,_nodeal
+470,deal,_deal,"""deal"
+471,deal,_deal,_deal
+472,yes,_deal,_deal
+473,are you willing to take one of the hats instead of the book?,_offer( _books 0 _hats 1 ),_nodeal
+474,ok deal,_deal,_deal
+475,deal.,_deal,_deal
+476,great,_deal,_deal
+477,ok deal,_deal,_deal
+478,"alright deal, thank you.",_deal _thanks,_deal _thanks
+479,no deal,_nodeal,_nodeal
+480,deal,_deal,_deal
+481,sounds good,_deal,_deal
+482,ok,_deal,_deal
+483,thanks!,_deal _thanks,_deal _thanks
+484,no deal,_nodeal,_nodeal
+485,deal. thank you!,_deal _thanks,_deal _thanks
+486,deal,_deal,_deal
+487,deal.,_deal,_deal
+488,no deal,_nodeal,_nodeal
+489,deal,_deal,_deal
+490,balls are 1 point for me. no deal.,_nodeal,_nodeal
+491,4 balls 1 book thats it,_misc( _books 1 _balls 4),_misc( _books 1 _balls 4)
+492,okay deal,_deal,_deal
+493,no,_nodeal,_nodeal
+494,no deal.,_nodeal,_nodeal
+495,deal,_deal,_deal
+496,sorry no deal,_nodeal,_no
+497,no deal,_nodeal,_nodeal
+498,"ok, no deal",_nodeal,_deal
+499,no deal,_nodeal,_nodeal
+500,ok,_deal,_deal
+501,yes,_deal,_deal
+502,deal,_deal,_deal
+503,deal.,_deal,_deal
+504,okay deal.,_deal,_deal
+505,2 books and 1 hat,_misc( _books 2 _hats 1 ),_misc( _books 2 _hats 1 )
+506,deal,_deal,_deal
+507,deal,_deal,_deal
+508,sounds good,_deal,_deal
+509,1 book and 1 hat is all i can give you,_offer( _books 1 _hats 1 ),_offer( _books 1 _hats 1 )
+510,deal.,_deal,_deal
+511,yes,_deal,_deal
+512,thanks,_deal _thanks,_deal _thanks
+513,yes,_deal,_deal
+514,yes,_deal,_deal
+515,yes,_deal,_deal
+516,thx,_deal _thanks,_deal
+517,no deal.,_nodeal,_nodeal
+518,sure,_deal,_deal
+519,deal,_deal,_deal
+520,deal,_deal,_deal
+521,yes,_deal,_deal
+522,deal,_deal,_deal
+523,no can do,_nodeal,_nodeal
+524,deal,_deal,_deal
+525,nd,_nodeal,_nodeal
+526,deal.,_deal,_deal
+527,deal,_deal,_deal
+528,ball and all the hats,_misc( _hats all _balls 1),_misc( _hats all _balls 1)
+529,no deal,_nodeal,_nodeal
+530,ok,_deal,_deal
+531,deal.,_deal,_deal
+532,all i need is the book,_need( _books 1 ),_need( _books 1 )
+533,ok,_deal,_deal
+534,okay deal,_deal,_deal
+535,2 balls and the book.,_misc( _books 1 _balls 2),_misc( _books 1 _balls 2)
+536,no deal,_nodeal,_odeal
+537,no deal,_nodeal,_nodeal
+538,no deal,_nodeal,_nodeal
+539,3 books 1 ball 2 hats,_misc( _books 3 _hats 2 _balls 1),_misc( _books 3 _hats 2 _balls 1)
+540,okay,_deal,_deal
+541,deal,_deal,_deal
+542,ok,_deal,_deal
+543,ok,_deal,_deal
+544,deal.,_deal,_deal
+545,sure,_deal,_deal
+546,thx,_deal _thanks,_thanks
+547,deal,_deal,_deal
+548,deal.,_deal,_deal
+549,agreed,_deal,_deal
+550,agreed,_deal,_deal
+551,deal,_deal,_deal
+552,deal,_deal,_deal
+553,agreed i will take the three books,_deal _need( _books 3 ),_need( _books 3 )
+554,deal,_deal,_deal
+555,deal!,_deal,_deal
+556,deal,_deal,_deal
+557,agreed. i get 2 books and a hat.,_deal _need( _books 2 _hats 1 ),_deal
+558,no deal.,_nodeal,_nodeal
+559,okay no deal.,_nodeal,_nodeal
+560,deal.,_deal,_deal
+561,deal,_deal,_deal
+562,deal,_deal,_deal
+563,deal.,_deal,_deal
+564,deal,_deal,_deal
+565,"ok, thanks",_deal,_deal
+566,yes,_deal,_deal
+567,deal,_deal,_deal
+568,great!,_deal,_deal
+569,yes,_deal,_deal
+570,2 hats and 2 books?,_misc( _books 2 _hats 2 ),_misc( _books 2 )
+571,deal,_deal,_deal
+572,deal.,_deal,_deal
+573,deal.,_deal,_deal
+574,deal,_deal,_deal
+575,"are you asking me? yes, i'd like the book and balls.",_need( _books 1 _balls all),_yes _need( _books 1 _balls 1)
+576,"book and a ball, thats good for you",_offer( _books 1 _balls 1),_offer( _books 1 _balls 1)
+577,ok deal,_deal,_deal
+578,no deal.,_nodeal,_nodeal
+579,no deal.,_nodeal,_odeal
+580,yes.,_deal,_deal
+581,ok,_deal,_deal
+582,6 / 10 is a weak hand.... we should pass on this deal,_nodeal,_need( _deal
+583,great!,_deal,_deal
+584,no deal,_nodeal,_nodeal
+585,fine,_deal,_deal
+586,deal.,_deal,_deal
+587,ok,_deal,_deal
+588,ok,_deal,_deal
+589,1 book and 1 hat,_misc( _books 1 _hats 1 ),_misc( _books 1 _hats 1 )
+590,deal,_deal,_deal
+591,deal,_deal,_deal
+592,no deal.,_nodeal,_nodeal
+593,no deal.,_nodeal,_nodeal
+594,deal,_deal,_deal
+595,awesome!,_deal,_deal
+596,okay great!,_deal,_deal
+597,no deal,_nodeal,_nodeal
+598,no deal.,_nodeal,_odeal
+599,no deal.,_nodeal,_nodeal
+600,deal,_deal,_deal
+601,no deal,_nodeal,_nodeal
+602,ok,_deal,_deal
+603,deal,_deal,_deal
+604,no deal.,_nodeal,_nodeal
+605,no deal,_nodeal,_no
+606,no deal,_nodeal,_nodeal
+607,sure,_deal,:
+608,okay great! thank you!,_deal,_deal
+609,sounds good,_deal,_deal
+610,deal,_deal,_deal
+611,thanks,_deal _thanks,_deal
+612,deal.,_deal,_deal
+613,no deal,_nodeal,_nodeal
+614,okay thank you!,_deal,_deal
+615,deal,_deal,"""deal"
+616,deal,_deal,_deal
+617,deal,_deal,_deal
+618,deal.,_deal,_deal
+619,okay thank you!,_deal,_deal
+620,sounds good,_deal,_deal
+621,4 / 10 is no deal for me......,_nodeal,_need( _books 1 _balls 1)
+622,deal,_deal,_deal
+623,deal,_deal,_deal
+624,deal,_deal,_deal
+625,1 ball 2 books,_misc( _books 2 _balls 1),_misc( _books 2 _balls 1)
+626,ok,_deal,_deal
+627,yes,_deal,"""Yes"
+628,yes,_deal,_deal
+629,no deal,_nodeal,0
+630,ok,_deal,_deal
+631,ok,_deal,_deal
+632,deal,_deal,_deal
+633,okay great! thank you!,_deal,_deal
+634,deal,_deal,_deal
+635,hello,_greeting,_greeting
+636,deal,_deal,_deal
+637,yes,_deal,_deal
+638,deal,_deal,_deal
+639,"balls are worthless to me, i need a hat",_need( _hats 1 _balls 0),_need( _hats 1 _balls 0 )
+640,yep,_deal,_deal
+641,no deal.,_nodeal,_nodeal
+642,ok no deal,_nodeal,_nodeal
+643,nope,_nodeal,_nodeal
+644,deal,_deal,_deal
+645,deal,_deal,_deal
+646,yep,_deal,_deal
+647,"books and a hat, work with me here.",_misc( _books all _hats 1 ),_need( _books all _hats 1 )
+648,sounds good.,_deal,_deal
+649,ok no deal,_nodeal,_no
+650,deal.,_deal,_deal
+651,sounds good,_deal,_deal
+652,no deal,_nodeal,1
+653,yes,_deal,""""
+654,"alright,",_deal,_deal
+655,ball and 2 books for me,_need( _books 2 _balls 1),_need( _balls 2)
+656,deal.,_deal,_deal
+657,deal,_deal,_deal
+658,okay,_deal,_deal
+659,deal,_deal,_deal
+660,ok deal,_deal,_deal
+661,deal,_deal,_deal
+662,thank you,_deal _thanks,_thanks
+663,deal,_deal,_deal
+664,no deal,_nodeal,_nodeal
+665,no deal,_nodeal,_nodeal
+666,yes,_deal,_deal
+667,okay,_deal,_deal
+668,deal,_deal,_deal
+669,yes,_deal,_deal
+670,deal,_deal,_deal
+671,deal,_deal,_deal
+672,ok,_deal,_deal
+673,hi,_greeting,_greeting
+674,ball and two books,_need( _books 2 _balls 1),_misc( _books 2 _balls 1)
+675,great!,_deal,_deal
+676,fine,_deal,_deal
+677,okay,_deal,‘deal
+678,ok deal,_deal,_deal
+679,thank you,_deal _thanks,_deal
+680,no deal,_nodeal,_nodeal
+681,no deal,_nodeal,_no
+682,great! thank you!,_deal,_deal
+683,deal,_deal,_deal
+684,deal,_deal,_deal
+685,no,_nodeal,_no
+686,deal,_deal,_deal
+687,"alright then, i will take the balls and you can have the rest.",_need( _balls all) _offer( rest),_need( _balls all) _offer( rest)
+688,deal,_deal,_deal
+689,deal,_deal,_deal
+690,no deal,_nodeal,_no
+691,great! thank you!,_deal,_deal
+692,"ok, deal",_deal,_deal
+693,sorry no deal,_nodeal,_nodeal
+694,yes,_deal,_deal
+695,okay deal.,_deal,_deal
+696,no deal,_nodeal,_nodeal
+697,deal,_deal,(deal
+698,ok,_deal,_deal
+699,okay deal.,_deal,_deal
+700,thanks,_deal _thanks,_deal
+701,no deal,_nodeal,_nodeal
+702,no deal,_nodeal,_nodeal
+703,okay thank you!,_deal,_deal
+704,ok deal,_deal,_deal
+705,no deal,_nodeal,_no
+706,no deal,_nodeal,_nodeal
+707,no deal,_nodeal,_odeal
+708,ok deal,_deal,_deal
+709,ok deal,_deal,_deal
+710,no deal,_nodeal,_nodeal
+711,deal,_deal,_deal
+712,okay deal.,_deal,_deal
+713,deal,_deal,_deal
+714,no deal,_nodeal,_nodeal
+715,ok deal,_deal,_deal
+716,yes,_deal,_deal
+717,no deal,_nodeal,_nodeal
+718,deal,_deal,"""deal"
+719,3 balls and 1 book,_misc( _books 1 _balls 3),_misc( _books 1 _balls 3)
+720,balls are 0 for me.,_need( _balls 0),_need( _balls 0)
+721,no deal,_nodeal,_need
+722,thx,_deal _thanks,_deal
+723,ok,_deal,_deal
+724,no deal.,_nodeal,_deal
+725,ok,_deal,_deal
+726,agreed!,_deal,_deal
+727,sorry no deal,_nodeal,_nodeal
+728,deal,_deal,_deal
+729,"all hats to me, you have rest",_need( _hats all ) _offer( rest),_need( _hats all ) _offer( rest)
+730,deal,_deal,_deal
+731,no deal,_nodeal,_nodeal
+732,yes,_deal,_deal
+733,deal,_deal,_deal
+734,deal,_deal,_deal
+735,yes,_deal,_deal
+736,yes,_deal,_deal
+737,no deal,_nodeal,_nodeal
+738,nope,_nodeal,_no
+739,no deal,_nodeal,_nodeal
+740,no deal,_nodeal,_nodeal
+741,ok,_deal,_deal
+742,ok,_deal,_deal
+743,no deal then,_nodeal,_nodeal
+744,no deal,_nodeal,_nodeal
+745,cool,_deal,_deal
+746,then no deal,_nodeal,_no
+747,no deal,_nodeal,_odeal
+748,okay,_deal,_deal
+749,great!,_deal,_deal
+750,deal,_deal,_deal
+751,"again, i get 2 balls and 1 hat and then i have 3 items and you have 4",_need( _hats 1 _balls 2),_need( _hats 1 _balls 2) _offer( _books 3 )
+752,i can't do that,_nodeal,_nodeal
+753,ok.,_deal,_deal
+754,deal,_deal,_deal
+755,okay,_deal,_deal
+756,deal,_deal,_deal
+757,sure,_deal,_deal
+758,deal,_deal,_deal
+759,hi,_greeting,_greing
+760,yes,_deal,_deal
+761,thank you!,_deal,_deal
+762,thanks,_deal _thanks,_deal _thanks
+763,no deal,_nodeal,_nodeal
+764,add another ball and we call it the,_misc( _balls 1),_need( _balls 1)
+765,deal,_deal,_deal
+766,no deal,_nodeal,_nodeal
+767,sure,_deal,0
+768,"all balls to me, the rest to you",_need( _balls all) _offer( _books rest _hats rest ),_need( rest) _offer( _balls all)
+769,ok,_deal,deal
+770,deal,_deal,_deal
+771,okay,_deal,_deal
+772,"alright then, i will take 2 books and you can have the rest.",_need( _books 2 ) _offer( rest),_offer( _books 2 )
+773,deal,_deal,_deal
+774,ok,_deal,_deal
+775,"okay, deal.",_deal,_deal
+776,deal.,_deal,_deal
+777,no deal,_nodeal,1
+778,no deal,_nodeal,_nodeal
+779,no deal,_nodeal,_nodeal
+780,no deal,_nodeal,_nodeal
+781,all i want is the hats.,_need( _hats all ),_need( _hats all )
+782,ok,_deal,_deal
+783,thanks!,_deal _thanks,_deal _thanks
+784,no deal.,_nodeal,_nodeal
+785,balls and books for me,_need( _books all _balls all),_need( _books all _balls all)
+786,ok.,_deal,_deal
+787,ok deal,_deal,_deal
+788,okay deal,_deal,_deal
+789,deal,_deal,"""deal"
+790,yes,_deal,_deal
+791,yes,_deal,/deal
+792,deal,_deal,_deal
+793,ok deal,_deal,_deal
+794,no deal,_nodeal,_odeal
+795,no deal,_nodeal,_nodeal
+796,deal,_deal,_deal
+797,deal.,_deal,_deal
+798,nope,_nodeal,_nodeal
+799,sounds good,_deal,_deal
+800,no deal,_nodeal,_nodeal
+801,agreed.,_deal,_deal
+802,deal,_deal,_deal
+803,okay.,_deal,_deal
+804,ok,_deal,_deal
+805,no deal,_nodeal,_no
+806,ok,_deal,_deal
+807,no deal,_nodeal,_nova
+808,no deal,_nodeal,_nodeal
+809,thanks!,_deal _thanks,_deal _thanks
+810,then no deal,_nodeal,_nodeal
+811,okay deal,_deal,_deal
+812,no deal,_nodeal,_nodeal
+813,ok deal,_deal,_deal
+814,deal.,_deal,_deal
+815,deal.,_deal,_deal
+816,deal,_deal,_deal
+817,okay,_deal,_deal
+818,2 hats 1 ball for u,_offer( _hats 2 _balls 1),_misc( _hats 2 _balls 1)
+819,deal,_deal,:
+820,no deal,_nodeal,#nodeal
+821,no deal,_nodeal,_nodeal
+822,ok,_deal,_deal
+823,ok deal,_deal,_deal
+824,no deal,_nodeal,_nodeal
+825,are the books not worth for you?,_misc( _books all ),_nodeal
+826,are you kidding? this is not how this works,_nodeal,_nodeal
+827,ok deal.,_deal,_deal
+828,all you want is the hats and i can take everything else?,_need( rest) _offer( _hats all ),_need( _hats all )
+829,deal.,_deal,_deal
+830,ok,_deal,_deal
+831,"ok, deal",_deal,_deal
+832,no deal.,_nodeal,_nodeal
+833,deal,_deal,_deal
+834,ok deal,_deal,_deal
+835,deal.,_deal,_deal
+836,deal,_deal,_deal
+837,okay,_deal,"""("
+838,great! thank you!,_deal,_deal
+839,hello,_greeting,_greeting
+840,okay deal,_deal,_deal
+841,sounds good.,_deal,_deal
+842,ok deal,_deal,_deal
+843,are you able to select no deal was agreed?,_nodeal,_nodeal
+844,deal.,_deal,""""
+845,book and one hat for me,_need( _books 1 _hats 1 ),_need( _books 1 _hats 1 )
+846,ok,_deal,_deal
+847,deal,_deal,_deal
+848,alright i will take the book. you take the rest.,_need( _books 1 ) _offer( rest),_need( _books 1 ) _offer( rest)
+849,book only,_misc( _books 1 ),_need( _books 1 )
+850,deal,_deal,_deal
+851,deal,_deal,_deal
+852,beautiful,_deal,_deal
+853,deal,_deal,_deal
+854,"2 books for me, you can have all the rest",_need( _books 2 ) _offer( rest),_need( _books 2 ) _offer( rest)
+855,ok deal.,_deal,_deal
+856,thanks,_deal _thanks,_deal _thanks
+857,yes,_deal,_deal
+858,sounds good.,_deal,_deal
+859,no deal,_nodeal,_nodeal
+860,yes.,_deal,_deal
+861,2 hats and a ball or the book,_misc( _books? _hats 2 _balls?),_misc( _hats 2 _balls 1)
+862,deal,_deal,_deal
+863,deal,_deal,_deal
+864,no deal,_nodeal,_nodeal
+865,ok,_deal,_deal
+866,no deal,_nodeal,_nodeal
+867,"1 ball, 1 hat and 2 books for me",_need( _books 2 _hats 1 _balls 1),_need( _hats 1 _books 2 _balls 1)
+868,deal,_deal,_deal
+869,deal,_deal,_deal
+870,deal!,_deal,_deal
+871,": ) okay, you can have the ball, i'll take the hat and the 3 books",_deal _need( _books 3 _hats 1 ) _offer( _balls 1),_need( _books 3 _hats 1 ) _offer( _balls 1)
+872,2 balls... you can have everything else,_need( _balls 2) _offer( rest),_need( _balls 2) _offer( rest)
+873,ok,_deal,_deal
+874,no deal.,_nodeal,_nodeal
+875,okay thank you!,_deal,_deal
+876,great,_deal,_deal
+877,no deal,_nodeal,_nodeal
+878,no deal.,_nodeal,_nodeal
+879,deal,_deal,_deal
+880,2 hats and one book for one ball,_need( _books 1 _hats 2 ) _offer( _books 1 ),_misc( _books 1 _hats 2 _balls 1)
+881,okay great! thank you!,_deal,_deal
+882,no deal.,_nodeal,_nodeal
+883,ok no deal,_nodeal,_nodeal
+884,okay,_deal,_deal
+885,deal,_deal,_deal
+886,deal,_deal,_deal
+887,all three hats,_misc( _hats 3 ),_misc( _hats 3 )
+888,ok,_deal,_deal
+889,great,_deal,_deal
+890,thanks,_deal _thanks,_deal _thanks
+891,yes,_deal,_deal
+892,agreed. which means i get two books and the ball.,_deal _need( _books 2 _balls 1),_need( _books 2 _balls 1)
+893,okay deal.,_deal,"""deal"
+894,deal.,_deal,_deal
+895,deal,_deal,_deal
+896,"and i will take the rest, good deal",_need( rest),_need( rest)
+897,okay deal,_deal,_deal
+898,deal.,_deal,_deal
+899,agreed. no deal,_nodeal,_nodeal
+900,ok,_deal,_deal
+901,fine,_deal,_deal
+902,any way you will take the hat and the ball instead?,_offer( _books 0 _hats 1 _balls 1),_need( _hats 1 _balls 1)
+903,okay,_deal,_deal
+904,no deal,_nodeal,_nodeal
+905,no deal,_nodeal,_nodeal
+906,deal,_deal,_deal
+907,great,_deal,_deal
+908,deal,_deal,_deal
+909,yep,_deal,_deal
+910,no deal.,_nodeal,_nodeal
+911,deal,_deal,_deal
+912,okay,_deal,"""deal"
+913,ok,_deal,_deal
+914,deal,_deal,_deal
+915,and i get one ball,_need( _balls 1),_need( _balls 1)
+916,sure,_deal,""""
+917,alright i'm taking 3 books and the hat.,_need( _books 3 _hats 1 ),_need( _hats 1 _books 3 )
+918,nope,_nodeal,_no
+919,sure,_deal,_deal
+920,book and three hats,_misc( _books 1 _hats 3 ),_misc( _books 1 _hats 3 )
+921,"ball to costly to me, book and all hats is worth less then ball for me",_need( _balls 1),_need( _books 1 _hats all?)
+922,no deal,_nodeal,_odeal
+923,sure,_deal,_deal
+924,deal.,_deal,_deal
+925,no deal.,_nodeal,1
+926,sure,_deal,_deal
+927,all i need is the hat,_need( _hats 1 ),_need( _hats 1 )
+928,ok deal,_deal,_deal
+929,no deal,_nodeal,_nodeal
+930,deal,_deal,"""deal"
+931,no deal,_nodeal,_nodeal
+932,deal,_deal,_deal
+933,sure,_deal,_deal
+934,ok deal,_deal,_deal
+935,great! thank you!,_deal,_deal
+936,deal.,_deal,""""
+937,no deal,_nodeal,_yes
+938,ok,_deal,_deal
+939,"alright, you can have the hat, and the ball. i will take three books.",_need( _books 3 ) _offer( _hats 1 _balls 1),_yes _need( _hats 1 _balls 1) _offer( _books 3 )
+940,deal!,_deal,_deal
+941,okay thank you!,_deal,_deal
+942,deal,_deal,_deal
+943,deal,_deal,_deal
+944,okay,_deal,_deal
+945,yep,_deal,_deal
+946,deal,_deal,_deal
+947,awesome.,_deal,_deal
+948,yup impossible unless one person gets low points glad you understand,_nodeal,_deal
+949,no deal,_nodeal,_nodeal
+950,deal,_deal,_deal
+951,i can do that,_deal,_deal
+952,"a book, a ball and three hats",_misc( _books 1 _hats 3 ),_need( _books 1 _hats 3 )
+953,deal!,_deal,_deal
+954,thanks,_deal _thanks,_deal _thanks
+955,yes,_deal,_deal
+956,deal,_deal,deal
+957,yes,_deal,_deal
+958,yep,_deal,_deal
+959,sounds good,_deal,all
+960,never,_nodeal,_deal
+961,are you interested in the hat at all?,_misc( _hats 1 ),_need( _hats 1 )
+962,1 hat 2 balls for m,_need( _hats 1 _balls 2),_misc( _hats 1 _balls 2)
+963,deal,_deal,_deal
+964,ok,_deal,"""deal"
+965,no deal,_nodeal,_nodeal
+966,deal,_deal,_deal
+967,thank you!,_deal,_deal
+968,okay great! thank you!,_deal,_deal
+969,deal,_deal,_deal
+970,ok deal,_deal,_deal
+971,deal,_deal,_deal
+972,ok deal,_deal,_deal
+973,yes,_deal,_deal
+974,"agreed, you take the 4 books and i take ball and hat.",_deal _need( _hats 1 _balls 1) _offer( _books 4 ),_deal
+975,ok,_deal,_deal
+976,ok,_deal,<unk>
+977,no deal,_nodeal,_nodeal
+978,no deal,_nodeal,_counter
+979,no deal,_nodeal,_nodeal
+980,no deal,_nodeal,_no
+981,"and we're still going to roll with an uneven split. in that case, i'll take the books and a hat, then?",_need( _books all _hats 1 ),_need( _books all _hats 1 )
+982,all thebooks,_misc( _books all ),_need( _books all )
+983,yes,_deal,_deal
+984,all i want is the hat you can have everything else,_need( _hats 1 ) _offer( rest),_need( _hats 1 ) _offer( rest)
+985,"ok, no deal",_nodeal,_nodeal
+986,deal.,_deal,_deal
+987,okay,_deal,_deal
+988,no deal,_nodeal,"""nodeal"
+989,"balls arnt doing much for me, that book though.",_need( _books 1 _balls 0),_need( _books 1 _balls all)
+990,no,_nodeal,_nodeal
+991,deal.,_deal,_deal
+992,ok no deal,_nodeal,_nodeal
+993,agreed you get 1 book and i get everything else,_deal _need( rest) _offer( _books 1 ),_deal
+994,deal,_deal,_deal
+995,deal,_deal,_deal
+996,no deal,_nodeal,_nodeal
+997,no deal,_nodeal,_no
+998,sounds good,_deal,_deal
+999,okay deal,_deal,_deal
+1000,deal,_deal,_deal
+1001,ok deal,_deal,_deal
+1002,ok,_deal,_deal
+1003,fine,_deal,_deal
+1004,ok,_deal,_deal
+1005,ok,_deal,_deal
+1006,deal,_deal,_deal
+1007,no deal.,_nodeal,_nodeal
+1008,deal,_deal,_deal
+1009,i can't do that,_nodeal,_nodeal
+1010,okay,_deal,_deal
+1011,okay deal.,_deal,_deal
+1012,okay great! thank you!,_deal,_deal
+1013,deal,_deal,_deal
+1014,deal.,_deal,_deal
+1015,deal.,_deal,_deal
+1016,balls are not 5 each for me i have not value for the hat also does not indicate no value just no value to me.,_need( _hats 0 ),_need( _hats 1 _balls 5)
+1017,ok,_deal,_deal
+1018,deal,_deal,_deal
+1019,deal,_deal,_deal
+1020,ok,_deal,_deal
+1021,no deal,_nodeal,"""nodeal"
+1022,deal.,_deal,_deal
+1023,sure,_deal,_deal
+1024,great,_deal,_deal
+1025,deal,_deal,_deal
+1026,2 balls 1 hat for you,_offer( _hats 1 _balls 2),_need( _hats 1 _balls 2)
+1027,deal,_deal,_deal
+1028,deal.,_deal,_deal
+1029,okay thank you!,_deal,_deal
+1030,alright. i take the book. you take the rest.,_yes _need( _books 1 ) _offer( rest),_yes _need( _books 1 ) _offer( rest)
+1031,deal.,_deal,_deal
+1032,"no, for me.",_nodeal,_nodeal
+1033,sounds good.,_deal,_deal
+1034,3 hats and 1 ball?,_misc( _hats 3 _balls 1),_misc( _hats 3 _balls 1)
+1035,deal,_deal,_deal
+1036,deal,_deal,_deal
+1037,deal.,_deal,_deal
+1038,deal,_deal,_deal
+1039,ok deal,_deal,_deal
+1040,deal.,_deal,_deal
+1041,no deal.,_nodeal,_no
+1042,yes.,_deal,_deal
+1043,deal.,_deal,_deal
+1044,ok deal,_deal,_deal
+1045,deal.,_deal,_deal
+1046,deal,_deal,_deal
+1047,deal,_deal,_deal
+1048,then no deal,_nodeal,_nodeal
+1049,ok deal,_deal,_deal
+1050,deal,_deal,_deal
+1051,book and 2 hats to me,_need( _books 1 _hats 2 ),_need( _books 1 _hats 2 )
+1052,deal.,_deal,"""deal"
+1053,hi,_greeting,_greeting
+1054,great,_deal,_deal
+1055,all the balls if i get the hat too.,_need( _hats 1 ) _offer( _balls all),_need( _hats 1 )
+1056,no deal,_nodeal,_nodeal
+1057,yes,_deal,_deal
+1058,sounds good,_deal,_deal
+1059,deal.,_deal,_deal
+1060,agreed,_deal,_deal
+1061,2 hats and a book for me,_need( _books 1 _hats 2 ),_need( _hats 2 )
+1062,deal,_deal,_deal
+1063,ok deal,_deal,_deal
+1064,deal.,_deal,""""
+1065,ok,_deal,_deal
+1066,cool,_deal,_deal
+1067,book is worth 7 to me,_need( _books 1 ),_need( _books 1 )
+1068,deal,_deal,_deal
+1069,i can't do that,_nodeal,_nodeal
+1070,great,_deal,_deal
+1071,no deal,_nodeal,nodeal
+1072,ok,_deal,_deal
+1073,yes,_deal,_deal
+1074,deal,_deal,_deal
+1075,yes,_deal,"""deal"
+1076,fine,_deal,_deal
+1077,deal,_deal,"""deal"
+1078,yes,_deal,_deal
+1079,1 book and 1 hat,_misc( _books 1 _hats 1 ),_need( _hats 1 )
+1080,i agree.,_deal,_deal
+1081,deal,_deal,_deal
+1082,"alright, even though its a loss for me, you take the book, and i'll take the rest.",_deal _need( rest) _offer( _books 1 ),_need( _books 1 ) _offer( rest)
+1083,ok,_deal,_deal
+1084,then no deal,_nodeal,_no
+1085,1 book and 1 hat. final offer,_misc( _books 1 _hats 1 ),_misc( _books 1 _hats 1 )
+1086,no deal then,_nodeal,Odeal
+1087,annoyingly reasonable... 8 <unk> )... ill agree,_deal,_nodeal
+1088,deal,_deal,"""deal"
+1089,fine,_deal,_deal
+1090,no deal,_nodeal,_nodeal
+1091,no deal,_nodeal,_nodeal
+1092,okay deal,_deal,_deal
+1093,ok deal,_deal,_deal
+1094,deal,_deal,"""deal"
+1095,deal,_deal,_deal
+1096,okay deal,_deal,_deal
+1097,deal.,_deal,_deal
+1098,okay.,_deal,_deal
+1099,ok,_deal,_deal
+1100,never,_nodeal,_no
+1101,ok deal,_deal,(deal
+1102,yup,_deal,_deal
+1103,deal,_deal,_deal
+1104,ok deal.,_deal,_deal
+1105,i agree.,_deal,_deal
+1106,deal,_deal,_deal
+1107,thanks,_deal _thanks,_deal _thanks
+1108,deal,_deal,_deal
+1109,deal.,_deal,_deal
+1110,no deal,_nodeal,_nodeal
+1111,okay great! thank you!,_deal,_deal
+1112,no,_nodeal,_nodeal
+1113,no deal then.,_nodeal,_nodeal
+1114,deal,_deal,_deal
+1115,deal,_deal,_deal
+1116,no deal.,_nodeal,_nodeal
+1117,no deal.,_nodeal,_nodeal
+1118,yep,_deal,_deal
+1119,deal. thank you,_deal _thanks,_deal
+1120,ok deal,_deal,_deal
+1121,thanks,_deal _thanks,_deal
+1122,okay.,_deal,_deal
+1123,deal,_deal,"""deal"
+1124,ok thanks,_deal,_deal
+1125,yes,_deal,yes
+1126,ok,_deal,_deal
+1127,deal.,_deal,_deal
+1128,alright no deal.,_nodeal,_nodeal
+1129,ok,_deal,_deal
+1130,i agree.,_deal,_deal
+1131,"ok, deal",_deal,deal
+1132,are you sure you can't take all three balls?,_need( _balls 3),_need( _balls all)
+1133,ok deal.,_deal,_deal
+1134,hi,_greeting,_greeting
+1135,deal.,_deal,-
+1136,deal,_deal,"""deal"
+1137,deal,_deal,_deal
+1138,1 book 1 ball,_misc( _books 1 _balls 1),_misc( _books 1 _balls 1)
+1139,great,_deal,_deal
+1140,ok deal,_deal,_deal
+1141,ok deal,_deal,_deal
+1142,ok,_deal,_deal
+1143,ok,_deal,_deal
+1144,no can do,_nodeal,_nodeal
+1145,fine,_deal,_deal
+1146,thanks,_deal _thanks,_deal _thanks
+1147,ok,_deal,_deal
+1148,deal,_deal,_deal
+1149,ok,_deal,_deal
+1150,ok,_deal,_deal
+1151,no deal.,_nodeal,_nodeal
+1152,deal,_deal,_deal
+1153,ok deal.,_deal,_deal
+1154,i agree.,_deal,_deal
+1155,no deal,_nodeal,1
+1156,agreed,_deal,_deal
+1157,okay thank you!,_deal,_deal
+1158,yes,_deal,_deal
+1159,4 : 1 is not fair. you can have both hats and one book.,_counteroffer _offer( _books 1 _hats 2 ),_need( _books 1 _hats 2 )
+1160,alright.,_deal,_deal
+1161,deal,_deal,Deal
+1162,deal,_deal,_deal
+1163,1 book and 1 hat for you,_offer( _books 1 _hats 1 ),_need( _books 1 _hats 1 )
+1164,great,_deal,_deal
+1165,"ok, deal.",_deal,_deal
+1166,ok deal,_deal,_deal
+1167,thanks,_deal _thanks,_deal _thanks
+1168,great,_deal,_deal
+1169,deal,_deal,_deal
+1170,fine,_deal,_deal
+1171,no deal.,_nodeal,_nodeal
+1172,deal,_deal,_deal
+1173,2 balls and we have a deal,_misc( _balls 2),_need( _balls 2)
+1174,deal,_deal,_deal
+1175,deal.,_deal,_deal
+1176,okay no deal.,_nodeal,_nodeal
+1177,sure,_deal,_deal
+1178,yup,_deal,(deal
+1179,deal,_deal,_deal
+1180,deal,_deal,_deal
+1181,no deal,_nodeal,_yes
+1182,3 hats for 1 book and 3 balls,_need( _hats 3 ) _offer( _books 1 _balls 2),_misc( _hats 3 ) _need( _books 1 _balls all)
+1183,ok deal,_deal,_deal
+1184,deal,_deal,_deal
+1185,yes,_deal,_deal
+1186,deal,_deal,_deal
+1187,no deal,_nodeal,_nodeal
+1188,sounds good,_deal,_deal
+1189,alright youcan have three hats and one book?,_offer( _books 1 _hats 3 ),_need( _books 1 _hats 3 )
+1190,no deal,_nodeal,_nodeal
+1191,ok,_deal,_deal
+1192,"book is straight up the only thing that has value for me, i would like it and nothing else.",_need( _books 1 ),_need( _books 1 )
+1193,and i need the hats and ball,_need( _hats all _balls 1),_need( _hats all _balls 1)
+1194,no deal,_nodeal,_nodeal
+1195,deal.,_deal,_deal
+1196,deal,_deal,_deal
+1197,ok,_deal,_deal
+1198,i can do that,_deal,_deal
+1199,no deal,_nodeal,_nodeal
+1200,ok,_deal,all
+1201,deal!,_deal,_deal
+1202,okay.,_deal,_deal
+1203,book and one ball for you,_offer( _books 1 _balls 1),_offer( _books 1 _balls 1)
+1204,alright sounds good.,_deal,_deal
+1205,okay.,_deal,_deal
+1206,okay no deal.,_nodeal,_nodeal
+1207,book and 3 hats for me,_need( _books 1 _hats 3 ),_need( _books 1 _hats 3 )
+1208,ok deal,_deal,_deal
+1209,"1 hat or the rest are the same amount of points for me, and its low",_need( _hats 1 ),_need( _hats 1 )
+1210,ok,_deal,_deal
+1211,ok,_deal,_deal
+1212,ok,_deal,-
+1213,book yes but only one hat for you,_need( _books 1 ) _offer( _hats 1 ),_need( _books 1 _hats 1 )
+1214,ok,_deal,_deal
+1215,great,_deal,_deal
+1216,deal,_deal,_deal
+1217,ok deal,_deal,Ideal
+1218,deal,_deal,_______
+1219,"ok, deal.",_deal,_deal
+1220,ok,_deal,_deal
+1221,ok,_deal,_deal
+1222,okay,_deal,_deal
+1223,no deal,_nodeal,_nodeal
+1224,no deal,_nodeal,_nodeal
+1225,"alright, the balls and one book?",_counteroffer _misc( _books 1 _balls all),_yes _need( _books 1 _balls all)
+1226,nope,_nodeal,_nodeal
+1227,any way you'd give up the book for balls?,_need( _hats 1 ) _offer( _balls all),_need( _books 1 )
+1228,no deal,_nodeal,_nodeal
+1229,no deal,_nodeal,_nodeal
+1230,deal,_deal,_deal
+1231,deal,_deal,_deal
+1232,deal,_deal,_deal
+1233,deal,_deal,_deal
+1234,deal,_deal,_deal
+1235,deal,_deal,_deal
+1236,2 balls and 2 hats?,_misc( _hats 2 _balls 2),_misc( _hats 2 _balls 2)
+1237,ok deal,_deal,_deal
+1238,no deal.,_nodeal,_nodeal
+1239,no deal,_nodeal,_nodeal
+1240,no deal.,_nodeal,_nodeal
+1241,great,_deal,_deal
+1242,yes,_deal,.
+1243,okay deal,_deal,_deal
+1244,yes,_deal,_deal
+1245,no,_nodeal,_nodeal
+1246,deal!,_deal,_deal
+1247,deal.,_deal,_deal
+1248,deal,_deal,_deal
+1249,balls are zero for me =<unk>,_need( _balls 0),_nodeal
+1250,ok,_deal,_deal
+1251,and i would only have 3 if you get the ball and book.,_offer( _books 1 _balls 1),_need( _books 1 _balls 1)
+1252,book and hats is only 4,_misc( _books 1 _hats all ),_misc( _books 1 _hats all )
+1253,yes,_deal,yes
+1254,no way,_nodeal,_no
+1255,deal,_deal,M
+1256,ok deal,_deal,_deal
+1257,okay,_deal,_deal
+1258,deal,_deal,_deal
+1259,hi,_greeting,_greeting
+1260,no deal,_nodeal,_nodeal
+1261,at least one book. 3 hats and one book,_misc( _books 1 _hats 3 ),_misc( _books 1 _hats 3 )
+1262,balls hace zero value on my end,_need( _balls 0),_need( _balls all)
+1263,no deal.,_nodeal,_nodeal
+1264,ok,_deal,_deal
+1265,deal,_deal,_deal
+1266,no deal,_nodeal,_nodeal
+1267,deal.,_deal,_deal
+1268,1 hat 1 ball and i keep the rest,_need( rest) _offer( _hats 1 _balls 1),_need( _hats 1 _balls 1) _offer( rest)
+1269,haha no,_nodeal,_nodeal
+1270,no deal,_nodeal,_nodeal
+1271,books all yours but not the hat,_need( _hats 1 ) _offer( _books all ),_need( _books all ) _offer( _hats 1 )
+1272,deal,_deal,_deal
+1273,deal,_deal,_deal
+1274,agreed.,_deal,_deal
+1275,books and hats,_misc( _books all _hats all ),_misc( _books all _hats all )
+1276,no deal,_nodeal,_nodeal
+1277,ok,_deal,_deal
+1278,"2 hats and a book for me, you get rest?",_need( _books 1 _hats 2 ) _offer( rest),_need( _books 1 _hats 2 ) _offer( rest)
+1279,ok,_deal,_deal
+1280,ok deal,_deal,"""deal"
+1281,deal,_deal,_deal
+1282,thanks,_deal _thanks,_deal _thanks
+1283,thank you,_deal _thanks,_deal
+1284,deal.,_deal,_deal
+1285,ball is 7.,_need( _balls 1),_misc( _balls 7)
+1286,deal.,_deal,_deal
+1287,deal,_deal,_deal
+1288,ok deal.,_deal,_deal
+1289,deal,_deal,_deal
+1290,ok,_deal,_deal
+1291,no deal,_nodeal,_nodeal
+1292,ok deal,_deal,_deal
+1293,"as it is to me, you can have everything else if i can have the hat",_need( _hats 1 ) _offer( rest),_need( _hats 1 ) _offer( rest)
+1294,okay,_deal,_deal
+1295,ball and one hat,_misc( _hats 1 _balls 1),_misc( _hats 1 _balls 1)
+1296,ok,_deal,_deal
+1297,okay,_deal,_deal
+1298,sounds good,_deal,_deal
+1299,no deal.,_nodeal,_nodeal
+1300,deal,_deal,_deal
+1301,ok deal,_deal,_deal
+1302,thank you.,_deal,_deal
+1303,deal,_deal,_deal
+1304,great,_deal,_deal
+1305,ball and books for me,_need( _books all _balls 1),_need( _books all _balls 1)
+1306,ok deal,_deal,_deal
+1307,no deal,_nodeal,_no
+1308,no deal.,_nodeal,_nodeal
+1309,no can do,_nodeal,_nodeal
+1310,ok,_deal,_deal
+1311,hi,_greeting,_grey
+1312,okay no deal.,_nodeal,_yes
+1313,ok,_deal,_deal
+1314,sure,_deal,I
+1315,ok,_deal,_deal
+1316,ok,_deal,_deal
+1317,deal,_deal,ge
+1318,deal,_deal,_deal
+1319,"best i can do is i keep the hat, you get everything else.",_need( _hats 1 ) _offer( rest),_need( _hats 1 )
+1320,ball and two books for you,_offer( _books 2 _balls 1),_need( _books 2 _balls 1)
+1321,deal,_deal,_deal
+1322,okay thank you!,_deal,_deal
+1323,ok,_deal,_deal
+1324,no deal then,_nodeal,_nodeal
+1325,deal,_deal,"""deal"
+1326,balls have 0 value on my end,_need( _balls 0),_need( _balls 0)
+1327,no deal.,_nodeal,_nodeal
+1328,2 hats and the book.,_misc( _books 1 _hats 2 ),_misc( _books 1 _hats 2 )
+1329,deal,_deal,_deal
+1330,no deal,_nodeal,_nodeal
+1331,2 balls 1 book is my best offer,_misc( _books 1 _balls 2),_misc( _books 1 _balls 2)
+1332,ok,_deal,_deal
+1333,no deal,_nodeal,_nodeal
+1334,yep,_deal,_deal
+1335,ok deal,_deal,_deal
+1336,ok deal,_deal,_deal
+1337,no deal,_nodeal,_nodeal
+1338,deal.,_deal,_deal
+1339,deal,_deal,_deal
+1340,ok,_deal,_deal
+1341,ok,_deal,_deal
+1342,ok,_deal,_deal
+1343,"3 balls to you, the rest to me",_need( rest) _offer( _balls 3),_need( rest) _offer( _balls 1)
+1344,okay thank you!,_deal,_deal
+1345,ok,_deal,_deal
+1346,no deal then,_nodeal,_nodeal
+1347,deal,_deal,Adeal
+1348,deal,_deal,_deal
+1349,sure,_deal,_deal
+1350,deal,_deal,_deal
+1351,deal,_deal,_deal
+1352,ok,_deal,_deal
+1353,okay,_deal,_deal
+1354,2 hats 3 balls,_misc( _hats 2 _balls 3),_misc( _hats 2 _balls 1)
+1355,okay deal,_deal,_deal
+1356,balls have zero value for me,_need( _balls 0),_need( _balls 0)
+1357,deal.,_deal,_deal
+1358,sounds good,_deal,_deal
+1359,no deal,_nodeal,_nodeal
+1360,deal,_deal,_deal
+1361,ball and 1 book is my best offer.,_misc( _books 1 _balls 1),_misc( _books 1 _balls 1)
+1362,2 books and a hat,_misc( _books 2 _hats 1 ),_misc( _books 2 _hats 1 )
+1363,deal,_deal,_deal
+1364,okay,_deal,_deal
+1365,sounds good,_deal,_deal
+1366,okay,_deal,_deal
+1367,2 books and 2 hats,_misc( _books 2 _hats 2 ),_misc( _books 2 _hats 2 )
+1368,ok,_deal,_deal
+1369,deal,_deal,_deal
+1370,"bad deal for me, i take hat and one ball",_counteroffer _need( _hats 1 _balls 1),_need( _hats 1 _balls 1)
+1371,book plus one ball?,_misc( _books 1 _balls 1),_need( _books 1 _balls 1)
+1372,3 hats and 1 book and we have a deal,_misc( _books 1 _hats 3 ),_misc( _books 1 _hats 3 )
+1373,1 hat 1 book,_misc( _books 1 _hats 1 ),_misc( _books 1 _hats 1 )
+1374,deal,_deal,_deal
+1375,deal.,_deal,_deal
+1376,okay deal,_deal,_deal
+1377,deal,_deal,_deal
+1378,ok,_deal,<unk>
+1379,deal,_deal,_deal
+1380,ok,_deal,_deal
+1381,no deal,_nodeal,_nodeal
+1382,deal,_deal,_deal
+1383,book for you,_offer( _books 1 ),_offer( _books 1 )
+1384,balls and hats for me,_need( _hats all _balls all),_need( _balls all)
+1385,and i get the two books and the ball,_need( _books 2 _balls 1),_need( _books 2 _balls 1)
+1386,great,_deal,new
+1387,no.,_nodeal,non
+1388,ok,_deal,_deal
+1389,ok,_deal,_deal
+1390,yup,_deal,_deal
+1391,no deal,_nodeal,_no
+1392,deal.,_deal,_deal
+1393,balls are mine you can have one book though,_need( _balls all) _offer( _books 1 ),_need( _books 1 )
+1394,deal.,_deal,_deal
+1395,okay,_deal,_deal
+1396,are you serious? how is that a legitmate offer?,_nodeal,_deal
+1397,1 book 1 hat,_misc( _books 1 _hats 1 ),_misc( _books 1 _hats 1 )
+1398,deal,_deal,_deal
+1399,deal,_deal,_deal
+1400,okay thank you!,_deal,_deal
+1401,okay,_deal,_deal
+1402,deal,_deal,_deal
+1403,sounds good,_deal,_deal
